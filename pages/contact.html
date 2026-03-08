@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Arpit — ECE Engineer available for Embedded, VLSI, MERN, and AI/ML opportunities.">
+  <title>Contact — Arpit Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="../css/style.css">
+  <script>!function(){var t=localStorage.getItem("arpit-theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.setAttribute("data-theme",t)}();</script>
+</head>
+<body>
+
+<div id="nav-placeholder"></div>
+<main id="main">
+
+  <div class="page-hero" style="text-align:center;">
+    <div class="hero-orb hero-orb-1" aria-hidden="true"></div>
+    <div class="wrap">
+      <span class="label" style="margin-bottom:var(--s5);display:inline-flex;">Let's Connect</span>
+      <h1 class="page-hero-title">Get in Touch</h1>
+      <p class="page-hero-sub" style="margin-inline:auto;">Open to embedded, VLSI, MERN, and AI/ML roles — internships, full-time positions, and interesting collaborations.</p>
+    </div>
+  </div>
+
+  <section class="section section--sm">
+    <div class="wrap">
+
+      <!-- Contact cards row -->
+      <div class="g3 reveal" style="max-width:760px;margin-inline:auto;margin-bottom:var(--s12);">
+        <div class="pcard" style="text-align:center;padding:var(--s6);">
+          <div style="font-size:1.8rem;margin-bottom:var(--s3);">📧</div>
+          <p style="font-family:var(--font-mono);font-size:var(--fs-2xs);color:var(--text-2);text-transform:uppercase;letter-spacing:.08em;margin-bottom:var(--s2);">Email</p>
+          <a href="mailto:arpit@example.com" style="font-family:var(--font-display);font-size:var(--fs-sm);font-weight:600;color:var(--amber);">arpit@example.com</a>
+        </div>
+        <div class="pcard" style="text-align:center;padding:var(--s6);">
+          <div style="font-size:1.8rem;margin-bottom:var(--s3);">💼</div>
+          <p style="font-family:var(--font-mono);font-size:var(--fs-2xs);color:var(--text-2);text-transform:uppercase;letter-spacing:.08em;margin-bottom:var(--s2);">LinkedIn</p>
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" style="font-family:var(--font-display);font-size:var(--fs-sm);font-weight:600;color:var(--amber);">/in/yourprofile</a>
+        </div>
+        <div class="pcard" style="text-align:center;padding:var(--s6);">
+          <div style="font-size:1.8rem;margin-bottom:var(--s3);">🐙</div>
+          <p style="font-family:var(--font-mono);font-size:var(--fs-2xs);color:var(--text-2);text-transform:uppercase;letter-spacing:.08em;margin-bottom:var(--s2);">GitHub</p>
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" style="font-family:var(--font-display);font-size:var(--fs-sm);font-weight:600;color:var(--amber);">@yourusername</a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-box reveal">
+        <div style="margin-bottom:var(--s8);">
+          <p style="font-family:var(--font-mono);font-size:var(--fs-xs);color:var(--amber);letter-spacing:.1em;text-transform:uppercase;margin-bottom:var(--s3);">// SEND A MESSAGE</p>
+          <h2 style="font-family:var(--font-display);font-size:var(--fs-2xl);font-weight:800;letter-spacing:-.03em;">Let's build something.</h2>
+        </div>
+
+        <form id="contact-form" novalidate>
+          <!-- Honeypot -->
+          <div style="position:absolute;left:-9999px;opacity:0;pointer-events:none;" aria-hidden="true">
+            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="f-name">Full Name <span>*</span></label>
+              <input class="form-input" type="text" id="f-name" name="name" placeholder="Jane Smith" required autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="f-email">Email Address <span>*</span></label>
+              <input class="form-input" type="email" id="f-email" name="email" placeholder="jane@company.com" required autocomplete="email">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="f-domain">Domain of Interest</label>
+            <select class="form-select" id="f-domain" name="domain">
+              <option value="general">General / Not sure yet</option>
+              <option value="embedded">Embedded Systems</option>
+              <option value="vlsi">VLSI Design</option>
+              <option value="mern">MERN Stack / Web Dev</option>
+              <option value="ai-ml">AI / ML Engineering</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="f-message">Message <span>*</span></label>
+            <textarea class="form-textarea" id="f-message" name="message" placeholder="Tell me about the opportunity, project, or just say hello..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary form-submit">
+            Send Message →
+          </button>
+
+          <div class="form-status" id="form-status" role="alert" aria-live="polite"></div>
+
+          <p style="margin-top:var(--s5);font-family:var(--font-mono);font-size:var(--fs-2xs);color:var(--text-2);line-height:1.6;">
+            // Powered by Formspree. Replace YOUR_FORM_ID in shared.js with your free Formspree ID.<br>
+            // Get one at <a href="https://formspree.io" target="_blank" rel="noopener noreferrer" style="color:var(--amber);">formspree.io</a> — completely free.
+          </p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+<div id="footer-placeholder"></div>
+<script src="../js/shared.js"></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="All engineering projects by Arpit — Embedded, VLSI, MERN, and AI/ML.">
+  <title>Projects — Arpit Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="../css/style.css">
+  <script>!function(){var t=localStorage.getItem("arpit-theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.setAttribute("data-theme",t)}();</script>
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main id="main">
+
+  <div class="page-hero" style="text-align:center;">
+    <div class="hero-orb hero-orb-1" aria-hidden="true"></div>
+    <div class="wrap">
+      <span class="label" style="margin-bottom:var(--s5);display:inline-flex;">Portfolio</span>
+      <h1 class="page-hero-title">All Projects</h1>
+      <p class="page-hero-sub" style="margin-inline:auto;">Engineering work across four domains. Click a filter to browse by specialization.</p>
+    </div>
+  </div>
+
+  <section class="section section--sm">
+    <div class="wrap">
+
+      <div class="filter-bar reveal" role="group" aria-label="Filter by domain">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="embedded">🔌 Embedded</button>
+        <button class="filter-btn" data-filter="vlsi">🧮 VLSI</button>
+        <button class="filter-btn" data-filter="mern">💻 MERN</button>
+        <button class="filter-btn" data-filter="ai-ml">🤖 AI/ML</button>
+      </div>
+
+      <div class="projects-grid">
+        <article class="pcard reveal" data-domain="embedded">
+          <div class="pcard-thumb" style="background:linear-gradient(135deg,#1a1200,#0D1117);">
+            <span class="pcard-thumb-icon">🔌</span>
+            <span class="pcard-badge">Embedded</span>
+          </div>
+          <div class="pcard-body">
+            <h3 class="pcard-title">Smart Home IoT Hub</h3>
+            <p class="pcard-desc">FreeRTOS-based multi-protocol hub on STM32 managing 20+ IoT sensors via MQTT with 2-year battery life optimization.</p>
+            <div class="pcard-stack"><span class="tag">STM32</span><span class="tag">FreeRTOS</span><span class="tag">MQTT</span><span class="tag">C</span></div>
+            <div class="pcard-actions"><a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">GitHub ↗</a></div>
+          </div>
+        </article>
+
+        <article class="pcard reveal reveal-d1" data-domain="embedded">
+          <div class="pcard-thumb" style="background:linear-gradient(135deg,#0f1a00,#0D1117);">
+            <span class="pcard-thumb-icon">🚗</span>
+            <span class="pcard-badge">Embedded</span>
+          </div>
+          <div class="pcard-body">
+            <h3 class="pcard-title">Automotive CAN Bus Logger</h3>
+            <p class="pcard-desc">Real-time CAN bus data acquisition on STM32 with SD card logging and PC analysis tool for ECU diagnostics.</p>
+            <div class="pcard-stack"><span class="tag">STM32</span><span class="tag">CAN Bus</span><span class="tag">FATFS</span><span class="tag">C</span></div>
+            <div class="pcard-actions"><a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">GitHub ↗</a></div>
+          </div>
+        </article>
+
+        <article class="pcard reveal reveal-d2" data-domain="embedded">
+          <div class="pcard-thumb" style="background:linear-gradient(135deg,#1a0f00,#0D1117);">
+            <span class="pcard-thumb-icon">🌡️</span>
+            <span class="pcard-badge">Embedded</span>
+          </div>
+          <div class="pcard-body">
+            <h3 class="pcard-title">Industrial Sensor Array</h3>
+            <p class="pcard-desc">Multi-node WiFi mesh sensor network measuring temperature, pressure, and gas with ±0.1% accuracy in industrial environments.</p>
+            <div class="pcard-stack"><span class="tag">ESP32</span><span class="tag">WiFi Mesh</span><span class="tag">I²C</span><span class="tag">C++</span></div>
+            <div class="pcard-actions"><a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">GitHub ↗</a></div>
+          </div>
+        </article>
+
+        <article class="pcard reveal" data-domain="vlsi">
+          <div class="pcard-thumb" style="background:linear-gradient(135deg,#001a12,#0D1117);">
+            <span class="pcard-thumb-icon">🧮</span>
+            <span class="pcard-badge">VLSI</span>
+          </div>
+          <div class="pcard-body">
+            <h3 class="pcard-title">32-bit RISC-V Processor</h3>
+            <p class="pcard-desc">5-stage pipelined RV32I core in Verilog. Synthesized on Xilinx FPGA, verified with UVM achieving 95% functional coverage.</p>
+            <div class="pcard-stack"><span class="tag">Verilog</span><span class="tag">UVM</span><span class="tag">RISC-V</span><span class="tag">Xilinx</span></div>
+            <div class="pcard-actions"><a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">GitHub ↗</a></div>
+          </div>
+        </article>
+
+        <article class="pcard reveal reveal-d1" data-domain="vlsi">
+          <div class="pcard-thumb" style="background:linear-gradient(135deg,#001a18,#0D1117);">
+            <span class="pcard-thumb-icon">⚡</span>
+            <span class="pcard-badge">VLSI</span>
+          </div>
+          <div class="pcard-body">
+            <h3 class="pcard-title">AHB-APB Bridge IP Core</h3>
+            <p class="pcard-desc">Parameterizable bus bridge with burst support. Full SystemVerilog UVM environment with coverage-driven random testing.</p>
+            <div class="pcard-stack"><span class="tag">SystemVerilog</span><span class="tag">UVM</span><span class="tag">AHB</span><span class="tag">APB</span></div>
+            <div class="pcard-actions"><a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">GitHub ↗</a></div>
+          </div>
+        </article>
+
+        <article class="pcard reveal reveal-d2" data-domain="mern">
+          <div class="pcard-thumb" style="background:linear-gradient(135deg,#00101a,#0D1117);">
+            <span class="pcard-thumb-icon">📊</span>
+            <span class="pcard-badge">MERN</span>
+          </div>
+          <div class="pcard-body">
+            <h3 class="pcard-title">IoT Dashboard Platform</h3>
+            <p class="pcard-desc">Real-time MERN dashboard for 500+ IoT data streams. WebSocket live charts, alert system, and device management portal.</p>
+            <div class="pcard-stack"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Socket.io</span><span class="tag">MongoDB</span></div>
+            <div class="pcard-actions">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">GitHub ↗</a>
+              <a href="#" class="btn btn-primary btn-sm">Demo ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pcard reveal" data-domain="mern">
+          <div class="pcard-thumb" style="background:linear-gradient(135deg,#001518,#0D1117);">
+            <span class="pcard-thumb-icon">🛒</span>
+            <span class="pcard-badge">MERN</span>
+          </div>
+          <div class="pcard-body">
+            <h3 class="pcard-title">E-Commerce Platform</h3>
+            <p class="pcard-desc">Full-featured MERN e-commerce with Stripe payments, JWT auth, admin panel, and order tracking. Deployed on AWS EC2.</p>
+            <div class="pcard-stack"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Stripe</span><span class="tag">MongoDB</span></div>
+            <div class="pcard-actions">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">GitHub ↗</a>
+              <a href="#" class="btn btn-primary btn-sm">Demo ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pcard reveal reveal-d1" data-domain="ai-ml">
+          <div class="pcard-thumb" style="background:linear-gradient(135deg,#0e0018,#0D1117);">
+            <span class="pcard-thumb-icon">🤖</span>
+            <span class="pcard-badge">AI / ML</span>
+          </div>
+          <div class="pcard-body">
+            <h3 class="pcard-title">Edge Gesture Recognition</h3>
+            <p class="pcard-desc">TFLite CNN on ESP32 for real-time gesture recognition. 94% accuracy at 25ms latency via quantization-aware training.</p>
+            <div class="pcard-stack"><span class="tag">TFLite</span><span class="tag">ESP32</span><span class="tag">CNN</span><span class="tag">Python</span></div>
+            <div class="pcard-actions"><a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">GitHub ↗</a></div>
+          </div>
+        </article>
+
+        <article class="pcard reveal reveal-d2" data-domain="ai-ml">
+          <div class="pcard-thumb" style="background:linear-gradient(135deg,#0e001a,#0D1117);">
+            <span class="pcard-thumb-icon">🧠</span>
+            <span class="pcard-badge">AI / ML</span>
+          </div>
+          <div class="pcard-body">
+            <h3 class="pcard-title">Predictive Fault Detection</h3>
+            <p class="pcard-desc">LSTM model for industrial motor fault detection via vibration sensor FFT features. 97.3% detection accuracy.</p>
+            <div class="pcard-stack"><span class="tag">PyTorch</span><span class="tag">LSTM</span><span class="tag">FFT</span><span class="tag">Pandas</span></div>
+            <div class="pcard-actions"><a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">GitHub ↗</a></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--sm">
+    <div class="wrap">
+      <div class="vision-strip reveal">
+        <h2 class="vision-title">Open to work</h2>
+        <p class="vision-text">Looking for internships and full-time roles in Embedded, VLSI, or AI/ML. Let's build something remarkable.</p>
+        <div class="vision-ctas"><a href="contact.html" class="btn btn-primary">Get in Touch →</a></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<div id="footer-placeholder"></div>
+<script src="../js/shared.js"></script>
+</body>
+</html>
